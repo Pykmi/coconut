@@ -1,7 +1,8 @@
-package lexer
+package test
 
 import (
-	"github.com/pykmi/coconut-lang/token"
+	lex "github.com/pykmi/coconut/lexer"
+	"github.com/pykmi/coconut/token"
 	"testing"
 )
 
@@ -106,7 +107,7 @@ if (5 < 10) {
 		{token.EOF, ""},
 	}
 
-	lexer := New(input)
+	lexer := lex.New(input)
 
 	for i, tt := range tests {
 		tok := lexer.NextToken()

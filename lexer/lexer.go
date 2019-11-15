@@ -1,7 +1,7 @@
 package lexer
 
 import (
-	"github.com/pykmi/coconut-lang/token"
+	"github.com/pykmi/coconut/token"
 )
 
 type Lexer struct {

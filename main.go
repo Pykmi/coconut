@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/pykmi/coconut-lang/repl"
+	"github.com/pykmi/coconut/repl"
 	"os"
 	"os/user"
 )
